@@ -10,6 +10,9 @@ public class Masajista extends SeleccionFutbol{
     private String titulacion;
     private int añosExperiencia;
 
+    public Masajista() {
+    }
+
     public Masajista(String titulacion, int añosExperiencia, int id, String nombre, String apellidos, int edad){
         super(id, nombre, apellidos, edad);
         this.titulacion = titulacion;

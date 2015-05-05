@@ -9,6 +9,9 @@ public class Entrenador extends SeleccionFutbol{
     
     private int idFederacion;
 
+    public Entrenador() {
+    } 
+    
     public Entrenador(int idFederacion, int id, String nombre, String apellidos, int edad) {
         super(id, nombre, apellidos, edad);
         this.idFederacion = idFederacion;
