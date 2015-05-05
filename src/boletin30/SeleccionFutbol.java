@@ -52,6 +52,11 @@ public abstract class SeleccionFutbol implements IntegranteSeleccionFutbol{
     public void setEdad(int edad) {
         this.edad = edad;
     }
+
+    @Override
+    public String toString() {
+        return "id=" + id + ", nombre=" + nombre + ", apellidos=" + apellidos + ", edad=" + edad;
+    }
     
     
     

@@ -17,6 +17,13 @@ public class Entrenador extends SeleccionFutbol{
     public void planificarEntrenamiento(){
         System.out.println("Planificando entrenamiento");
     }
+
+    @Override
+    public String toString() {
+        return "idFederacion=" + idFederacion;
+    }
+    
+    
     
     @Override
     public void concentrarse() {

@@ -40,6 +40,13 @@ public class Futbolista extends SeleccionFutbol{
     }
 
     @Override
+    public String toString() {
+        return "dorsal=" + dorsal + ", demarcacion=" + demarcacion;
+    }
+    
+    
+
+    @Override
     public void concentrarse() {
         System.out.println("Concentrarse con la seleccion");
     }

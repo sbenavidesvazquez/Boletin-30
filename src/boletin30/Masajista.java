@@ -19,6 +19,13 @@ public class Masajista extends SeleccionFutbol{
     public void darMasaje(){
         System.out.println("Dar masaje");
     }
+
+    @Override
+    public String toString() {
+        return "titulacion=" + titulacion + ", Experiencia=" + añosExperiencia;
+    }
+    
+    
     
     @Override
     public void concentrarse() {
