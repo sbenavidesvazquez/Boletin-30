@@ -19,13 +19,30 @@ public class Masajista extends SeleccionFutbol{
         this.añosExperiencia = añosExperiencia;
     }
 
+    public String getTitulacion() {
+        return titulacion;
+    }
+
+    public void setTitulacion(String titulacion) {
+        this.titulacion = titulacion;
+    }
+
+    public int getAñosExperiencia() {
+        return añosExperiencia;
+    }
+
+    public void setAñosExperiencia(int añosExperiencia) {
+        this.añosExperiencia = añosExperiencia;
+    }
+
+    
     public void darMasaje(){
         System.out.println("Dar masaje");
     }
 
     @Override
     public String toString() {
-        return "titulacion=" + titulacion + ", Experiencia=" + añosExperiencia;
+        return "Masajista "+"id=" + id + ", nombre=" + nombre + ", apellidos=" + apellidos + ", edad=" + edad+" titulacion=" + titulacion + ", Experiencia=" + añosExperiencia;
     }
     
     

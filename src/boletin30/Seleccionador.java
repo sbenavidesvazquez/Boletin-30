@@ -37,5 +37,10 @@ public class Seleccionador extends SeleccionFutbol{
     public void jugarPartido() {
         System.out.println("jugar");
     }
+
+    @Override
+    public String toString() {
+        return "Seleccionador "+"id=" + id + ", nombre=" + nombre + ", apellidos=" + apellidos + ", edad=" + edad;
+    }
     
 }

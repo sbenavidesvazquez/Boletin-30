@@ -17,13 +17,21 @@ public class Entrenador extends SeleccionFutbol{
         this.idFederacion = idFederacion;
     }
 
+    public int getIdFederacion() {
+        return idFederacion;
+    }
+
+    public void setIdFederacion(int idFederacion) {
+        this.idFederacion = idFederacion;
+    }
+
     public void planificarEntrenamiento(){
         System.out.println("Planificando entrenamiento");
     }
 
     @Override
     public String toString() {
-        return "idFederacion=" + idFederacion;
+        return "Entrenador "+"id=" + id + ", nombre=" + nombre + ", apellidos=" + apellidos + ", edad=" + edad+" idFederacion=" + idFederacion;
     }
     
     

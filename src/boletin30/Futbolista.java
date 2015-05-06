@@ -41,7 +41,8 @@ public class Futbolista extends SeleccionFutbol{
 
     @Override
     public String toString() {
-        return "dorsal=" + dorsal + ", demarcacion=" + demarcacion;
+        
+        return "Futbolista "+"id=" + id + ", nombre=" + nombre + ", apellidos=" + apellidos + ", edad=" + edad+" dorsal=" + dorsal + ", demarcacion=" + demarcacion;
     }
     
     
